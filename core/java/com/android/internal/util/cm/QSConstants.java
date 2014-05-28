@@ -36,17 +36,17 @@ public class QSConstants {
         public static final String TILE_DELIMITER = "|";
         public static ArrayList<String> TILES_DEFAULT = new ArrayList<String>();
 
-        static {
-            TILES_DEFAULT.add(TILE_USER);
-            TILES_DEFAULT.add(TILE_BRIGHTNESS);
-            TILES_DEFAULT.add(TILE_SETTINGS);
-            TILES_DEFAULT.add(TILE_WIFI);
-            TILES_DEFAULT.add(TILE_MOBILEDATA);
-            TILES_DEFAULT.add(TILE_GPS);
-            TILES_DEFAULT.add(TILE_TORCH);
-            TILES_DEFAULT.add(TILE_BATTERY);
-            TILES_DEFAULT.add(TILE_AIRPLANE);
-            TILES_DEFAULT.add(TILE_BLUETOOTH);
-            TILES_DEFAULT.add(TILE_AUTOROTATE);
-        }
+        // static {
+        //     TILES_DEFAULT.add(TILE_USER);
+        //     TILES_DEFAULT.add(TILE_BRIGHTNESS);
+        //     TILES_DEFAULT.add(TILE_SETTINGS);
+        //     TILES_DEFAULT.add(TILE_WIFI);
+        //     TILES_DEFAULT.add(TILE_MOBILEDATA);
+        //     TILES_DEFAULT.add(TILE_GPS);
+        //     TILES_DEFAULT.add(TILE_TORCH);
+        //     TILES_DEFAULT.add(TILE_BATTERY);
+        //     TILES_DEFAULT.add(TILE_AIRPLANE);
+        //     TILES_DEFAULT.add(TILE_BLUETOOTH);
+        //     TILES_DEFAULT.add(TILE_AUTOROTATE);
+        // }
 }
