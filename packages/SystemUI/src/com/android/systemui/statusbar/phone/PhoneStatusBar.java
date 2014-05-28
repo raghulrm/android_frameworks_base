@@ -725,12 +725,12 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
 
         mSettingsButton = (ImageView) mStatusBarWindow.findViewById(R.id.settings_button);
         if (mSettingsButton != null) {
-            mSettingsButton.setOnClickListener(mSettingsButtonListener);
+            //mSettingsButton.setOnClickListener(mSettingsButtonListener);
             if (mHasSettingsPanel) {
                 if (mStatusBarView.hasFullWidthNotifications()) {
                     // the settings panel is hiding behind this button
                     mSettingsButton.setImageResource(R.drawable.ic_notify_quicksettings);
-                    mSettingsButton.setVisibility(View.VISIBLE);
+                    mSettingsButton.setVisibility(View.GONE);
                 } else {
                     // there is a settings panel, but it's on the other side of the (large) screen
                     final View buttonHolder = mStatusBarWindow.findViewById(
@@ -3003,10 +3003,10 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
 
     private View.OnClickListener mAddTileButtonListener = new View.OnClickListener() {
         public void onClick(View v) {
-            Intent intent = new Intent();
-            intent.setClassName("com.android.settings",
-                    "com.android.settings.Settings$QuickSettingsConfigActivity");
-            startActivityDismissingKeyguard(intent, true);
+            // Intent intent = new Intent();
+            // intent.setClassName("com.android.settings",
+            //         "com.android.settings.Settings$QuickSettingsConfigActivity");
+            // startActivityDismissingKeyguard(intent, true);
         }
     };
 
