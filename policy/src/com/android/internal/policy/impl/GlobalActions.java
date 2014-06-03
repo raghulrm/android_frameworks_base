@@ -375,7 +375,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
                         Settings.System.SYSTEM_PROFILES_ENABLED, 1, UserHandle.USER_CURRENT) == 1
                 && Settings.System.getIntForUser(cr,
                         Settings.System.POWER_MENU_PROFILES_ENABLED, 1, UserHandle.USER_CURRENT) == 1;
-        if (showProfiles) {
+        if (false) {
             mItems.add(
                 new ProfileChooseAction() {
                     public void onPress() {
@@ -432,7 +432,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
         // next: airplane mode
         boolean showAirplaneMode = Settings.System.getIntForUser(cr,
                 Settings.System.POWER_MENU_AIRPLANE_ENABLED, 1, UserHandle.USER_CURRENT) == 1;
-        if (showAirplaneMode) {
+        if (false) {
             mItems.add(mAirplaneModeOn);
         }
 
